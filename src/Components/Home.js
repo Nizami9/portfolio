@@ -45,9 +45,9 @@ const Home = () => {
             mx={6}
           >
             <Image
-              src="https://storage.googleapis.com/portfolioly-bucket/profile-pic-ly-stripes.jpg"
+              src=""
               borderRadius="md"
-              alt="Profile picture Lydia Robnik"
+              alt="Profile picture Nizami Suleymanov"
               maxW={{ base: '220px', sm: '300px' }}
               // maxW="300px"
               mr={['0', '4', '8', '16']}
@@ -60,7 +60,7 @@ const Home = () => {
                 size={isSmallerThan310 ? 'md' : ['lg']}
                 w="100%"
               >
-                Welcome, I am Lydia
+                Hello, I am Nizami
               </Heading>
 
               <Heading
@@ -110,7 +110,7 @@ const Home = () => {
               fontSize={isSmallerThan310 ? '10px' : ['0.65rem', '0.8rem']}
               color="#1A202C"
             >
-              Lydia Robnik - Friedrichstr. 59 - 68809 Neulußheim
+              Nizami Suleymanov - Bahnhofstrase 45 - 29525 Uelzen
             </Text>
           </Flex>
         </Box>
