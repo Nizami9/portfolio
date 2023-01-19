@@ -1,10 +1,10 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import { ChakraProvider } from '@chakra-ui/react';
-import Navbar from './Components/Navbar';
+import Navbar from './Components/NavBar';
 import Home from './Components/Home';
-import Project from './Components/Project';
-import theme from './theme';
+import Project from './Components/CowoProject';
+import theme from './Theme';
 import './index.css';
 
 function App() {
