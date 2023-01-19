@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box, Flex, Heading } from '@chakra-ui/react';
-import ProjectCard from './ProjectCard';
+import ProjectCard from './CowoProject';
 
 const ProjectsOverview = () => {
   return (

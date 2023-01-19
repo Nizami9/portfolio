@@ -1,7 +1,7 @@
 import React from 'react';
 import { Text, Heading, Box, Flex, Image } from '@chakra-ui/react';
-import ChakraBox from './ChakraBox';
-import '../Styles/about.css';
+import ChakraBox from './BoxChakra';
+import '../index.css';
 
 const About = () => {
   const bubbles = [

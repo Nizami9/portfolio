@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import { Link } from 'react-scroll';
 import { Flex, Button, IconButton, useColorModeValue } from '@chakra-ui/react';
 import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons';
-import { ColorModeSwitcher } from '../ColorModeSwitcher';
-import '../Styles/navbar.css';
+import { ColorModeSwitcher } from '../ColorSwitch';
+import '../index.css';
 
 const Navbar = () => {
   const bg = useColorModeValue('white', 'gray.800');

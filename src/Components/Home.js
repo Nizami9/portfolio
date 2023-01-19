@@ -9,14 +9,14 @@ import {
   Text,
   useColorModeValue,
 } from '@chakra-ui/react';
-import '../Styles/home.css';
+import '../index.css';
 
 import { animateScroll as scroll } from 'react-scroll';
 import { ArrowUpIcon } from '@chakra-ui/icons';
 
-import About from './About';
-import Toolbox from './Toolbox';
-import ProjectsOverview from './ProjectsOverview';
+import About from './AboutMe';
+import BoxTools from './BoxTools';
+import ProjectsOverview from './ProjectsDetails';
 import Contact from './Contact';
 
 const Home = () => {
@@ -82,7 +82,7 @@ const Home = () => {
 
       <main>
         <About />
-        <Toolbox />
+        <BoxTools />
         <ProjectsOverview />
         <Contact />
       </main>
