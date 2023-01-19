@@ -7,15 +7,10 @@ const ProjectCard = () => {
       <Flex direction="row" wrap="wrap">
         <Box pr={6} w={{ md: '60%' }}>
           <Heading as="h3" color="orange.300" sx={{ 'font-style': 'italic' }}>
-            Monkey Plan
+            Booking CoWorking Spaces
           </Heading>
           <Text as="p" my={6}>
-            The final project of my professional training at WBS CODING SCHOOL
-            was a web application for yoga teachers. The application was
-            developed within 2.5 weeks and a team of four people. Users can
-            easily and quickly prepare, structure and schedule their classes.
-            Content like planned classes, recurring sequences and custom
-            exercises are automatically saved to be reused in later plannings.
+            Lorem Ipsum
           </Text>
           <Text as="p" my={6}>
             My part was taking over the product owner role and developing the
@@ -28,9 +23,9 @@ const ProjectCard = () => {
           </Text>
         </Box>
         <Box w={{ md: '40%' }} mt={{ sm: 6, md: 16 }}>
-          <Link href="https://monkeyplan.ey.r.appspot.com" isExternal>
+          <Link href="https://wbs-coworking.netlify.app/" isExternal>
             <Image
-              src="https://storage.googleapis.com/portfolioly-bucket/preview_yogalessoncreator.jpg"
+              src="Cowo"
               borderRadius="md"
             />
           </Link>
