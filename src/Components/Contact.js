@@ -12,7 +12,7 @@ import {
   Show,
 } from '@chakra-ui/react';
 import Obfuscate from 'react-obfuscate';
-
+import batman from "../Images/batman.png";
 // Icons
 import { EmailIcon } from '@chakra-ui/icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -20,6 +20,7 @@ import {
   faLinkedinIn,
   faGithub,
   faDiscord,
+  faInstagram,
 } from '@fortawesome/free-brands-svg-icons';
 
 const Contact = () => {
@@ -27,20 +28,20 @@ const Contact = () => {
     {
       option: 'LinkedIn',
       reactIcon: faLinkedinIn,
-      href: 'https://www.linkedin.com/in/lydiarobnik/',
+      href: 'https://www.linkedin.com/in/nizamisuleymanov/',
       aria: 'view LinkedIn profile',
     },
     {
       option: 'GitHub',
       reactIcon: faGithub,
-      href: 'https://www.github.com/LydiaRobnik',
+      href: 'https://www.github.com/Nizami9',
       aria: 'view GitHub profile',
     },
     {
-      option: 'Discord',
-      reactIcon: faDiscord,
-      href: 'https://discordapp.com/users/982315750628950017',
-      aria: 'view Discord profile',
+      option: 'Instagram',
+      reactIcon: faInstagram,
+      href: 'https://www.instagram.com/nizami_sov',
+      aria: 'view instagram profile',
     },
   ];
 
@@ -76,10 +77,10 @@ const Contact = () => {
               <Flex justify="start">
                 <ButtonGroup spacing="16px" my={12}>
                   <Obfuscate
-                    email="LydiaRobnik@women-at-work.org"
+                    email="nizami.suleymanoff@gmail.com"
                     headers={{
                       subject: 'Nice portfolio',
-                      body: 'Hi Lydia, ...',
+                      body: 'Hi Nizami, ...',
                     }}
                   >
                     <IconButton
@@ -109,7 +110,7 @@ const Contact = () => {
             </Box>
             <Show above="md">
               <Image
-                src="https://storage.googleapis.com/portfolioly-bucket/bird_250px.png"
+                src={batman}
                 alt="illustration of a bird"
                 align="center"
                 maxW="250px"

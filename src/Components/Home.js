@@ -102,7 +102,7 @@ const Home = () => {
             onClick={() => scroll.scrollToTop()}
           ></IconButton>
         </Flex>
-        <Box bg="rgba(68,14,92,1)" h="80px">
+        <Box bg="rgba(0,212,255,1)" h="80px">
           <Flex justify={{ base: 'start', md: 'center' }} w="100%" h="100%">
             <Text
               my={10}
