@@ -1,17 +1,18 @@
 import React from 'react';
 import { Image, Heading, Flex, Box, Text, Link } from '@chakra-ui/react';
-import CoWo from "../Images/CoWo.jpeg"
+import CoWo from "../Images/CoWo.jpeg";
+import PoKe from "../Images/PoKe.jpeg";
 const ProjectCard = () => {
   return (
     <>
       <Flex direction="row" wrap="wrap">
         <Box pr={6} w={{ md: '60%' }}>
-          <Heading as="h3">
+        <Heading as="h3">
             <button className='button'>
               <span className='actual-text'>
-              Booking CoWorking Spaces</span>
+              Pokemon-Fight</span>
               <span className='hover-text' aria-hidden='true'>
-              Booking CoWorking Spaces</span></button>
+              Pokemon-Fight</span></button>
           </Heading>
           <Text as="p" my={6}>
             Lorem Ipsum
@@ -27,9 +28,9 @@ const ProjectCard = () => {
           </Text>
         </Box>
         <Box w={{ md: '40%' }} mt={{ sm: 6, md: 16 }}>
-          <Link href="https://wbs-coworking.netlify.app/" isExternal>
+          <Link href="https://pokemon-fight-nizami.netlify.app/" isExternal>
             <Image
-              src={CoWo}
+              src={PoKe}
               borderRadius="md"
             />
           </Link>

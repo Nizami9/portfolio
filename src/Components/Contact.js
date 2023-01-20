@@ -60,7 +60,7 @@ const Contact = () => {
           pt={16}
           direction="column"
           borderTop="1px"
-          borderColor="orange.300"
+          borderColor="white"
         >
           <Heading as="h2" size="2xl">
             Get In Touch

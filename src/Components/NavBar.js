@@ -6,7 +6,7 @@ import { ColorModeSwitcher } from '../ColorSwitch';
 import '../index.css';
 
 const Navbar = () => {
-  const bg = useColorModeValue('white', 'gray.800');
+  const bg = useColorModeValue('white', 'black.800');
   const [isOpen, setIsOpen] = useState('none');
 
   const navigation = [

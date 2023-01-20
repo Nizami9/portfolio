@@ -15,12 +15,12 @@ body {
 
 :root {
   --gradient: linear-gradient(45deg, 
-  #FF922A, 
-  #FF8888,
-  #fa6865,
-  #CC5A8D,
-  #5A8BCC,
-  #c3fcf1
+  white, 
+  blue,
+  black,
+  white,
+  white,
+  white
 )
 }
 
@@ -86,8 +86,56 @@ footer {margin: 0; padding: 0;}
   }
 }
 
+.downloadCVButton {
+  background-color: rgba(68,14,92,1);
+  border: 2px solid white;
+  margin-top: 10px;
+  padding: 10px 35px;
+  width: 35%;
+}
+
+
+.button {
+  margin: 0;
+  background:transparent;
+  padding: 0;
+  border: none;
+}
+
+.button {
+  --border-right: 6px;
+  --text-stroke-color: rgba(255, 255, 255, 0.6);
+  --animation-color: rgba(0,212,255,1);
+  --fs-size: 2em;
+  letter-spacing: 3px;
+  width: 100%;
+  text-decoration: none;
+  position: relative;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 1px var(--text-stroke-color);
+}
+
+.hover-text {
+  position: absolute;
+  box-sizing: border-box;
+  content: attr(data-text);
+  color: var(--animation-color);
+  width: 0%;
+  inset: 0;
+  border-right: var(--border-right) solid var(--animation-color);
+  overflow: hidden;
+  transition: 0.5s;
+  -webkit-text-stroke: 1px var(--animation-color);
+}
+
+.button:hover .hover-text {
+  width: 100%;
+  filter: drop-shadow(0 0 23px var(--animation-color))
+}
+
 .App-header {
-  background-color: #282c34;
+  background-color: purple;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -98,7 +146,7 @@ footer {margin: 0; padding: 0;}
 }
 
 .App-link {
-  color: #61dafb;
+  color: purple;
 }
 
 @keyframes App-logo-spin {

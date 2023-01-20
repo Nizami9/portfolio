@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box, Flex, Heading } from '@chakra-ui/react';
-import ProjectCard from './CowoProject';
-
+import CowoProject from './CowoProject';
+import PoKe from './PoKe';
 const ProjectsOverview = () => {
   return (
     <>
@@ -18,14 +18,15 @@ const ProjectsOverview = () => {
           mx={6}
           py={16}
           borderTop="1px"
-          borderColor="orange.300"
+          borderColor="white"
           direction="column"
         >
           <Heading as="h2" size="2xl">
             My Projects
           </Heading>
           <Box mt={16}>
-            <ProjectCard />
+            <CowoProject />
+            <PoKe />
           </Box>
         </Flex>
       </Flex>

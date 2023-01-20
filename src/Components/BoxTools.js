@@ -41,7 +41,7 @@ const BoxTools = () => {
           mx={6}
           py={16}
           borderTop="1px"
-          borderColor="orange.300"
+          borderColor="white"
           direction="column"
         >
           <Heading as="h2" size="2xl">
@@ -52,7 +52,7 @@ const BoxTools = () => {
             justify="center"
             align="stretch"
             mt={8}
-            bgGradient="linear(to-tl, cyan.400, teal.400, green.300)"
+            bgGradient="linear(to-tl, cyan.400, transparent, purple.300)"
             borderRadius="md"
           >
             <Grid

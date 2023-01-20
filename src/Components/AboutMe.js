@@ -47,7 +47,7 @@ const About = () => {
           pt={16}
           w="100%"
           borderTop="1px"
-          borderColor="orange.300"
+          borderColor="white"
           direction="row"
           align="center"
           justify="start"
@@ -68,8 +68,10 @@ const About = () => {
               and inspiring team and together making things better.
             </Text>
             <Text my={6}>
-              Currently I am improving my design skills by playing around and
-              creating illustrations using figma.
+            You can download my CV and see my career
+              <div className='downloadCVButton'>
+              <a role="button" href="../Images/CV.pdf" download="CV">Download CV</a>
+              </div>
             </Text>
           </Box>
           <Flex direction="column" align="start" justify="start">

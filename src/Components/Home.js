@@ -13,14 +13,14 @@ import '../index.css';
 
 import { animateScroll as scroll } from 'react-scroll';
 import { ArrowUpIcon } from '@chakra-ui/icons';
-
+import Me from "../Images/Me.jpg";
 import About from './AboutMe';
 import BoxTools from './BoxTools';
 import ProjectsOverview from './ProjectsDetails';
 import Contact from './Contact';
 
 const Home = () => {
-  const bg = useColorModeValue('gray.100', 'gray.400');
+  const bg = useColorModeValue('purple', 'purple');
   const [isSmallerThan310] = useMediaQuery('(max-width: 310px)');
 
   return (
@@ -45,7 +45,7 @@ const Home = () => {
             mx={6}
           >
             <Image
-              src=""
+              src={Me}
               borderRadius="md"
               alt="Profile picture Nizami Suleymanov"
               maxW={{ base: '220px', sm: '300px' }}
@@ -70,7 +70,7 @@ const Home = () => {
                 size={isSmallerThan310 ? 'md' : ['xl', '2xl', '3xl', '4xl']}
                 w={['100%', '100%', '100%', '50%']}
                 color="transparent"
-                bgGradient="linear(to-l, cyan.400, teal.400, green.300)"
+                bgGradient="linear(to-tl, cyan.400, transparent, purple.300)"
                 bgClip="text"
               >
                 Full-Stack Developer
@@ -102,7 +102,7 @@ const Home = () => {
             onClick={() => scroll.scrollToTop()}
           ></IconButton>
         </Flex>
-        <Box bg="orange.300" h="80px">
+        <Box bg="rgba(68,14,92,1)" h="80px">
           <Flex justify={{ base: 'start', md: 'center' }} w="100%" h="100%">
             <Text
               my={10}
